@@ -1,0 +1,52 @@
+.grid {
+  position: absolute;
+  margin-left: 15%;
+  height: 576px;
+  width: 576px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: burlywood;
+  opacity: 0.9;
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+
+.gameOver {
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 100px;
+  height: 300px;
+  width: 350px;
+  padding: 5%;
+  border-radius: 10%;
+  box-shadow: 10px 5px 5px chocolate;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: burlywood;
+  opacity: 0.8;
+  visibility: hidden;
+}
+
+body {
+  background-image: url(images/Final-Background.jpg);
+  background-size: cover;
+}
+
+.score-board {
+  margin-top: 50%;
+  padding: 10%;
+  border: 1px solid burlywood;
+  border-radius: 10%;
+  background-color: burlywood;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.moves-board {
+  background-color: burlywood;
+  border-radius: 10%;
+}
